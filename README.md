@@ -17,11 +17,11 @@ To install with pip on Windows, run:
 
 Here's some example code demonstrating how this module is used
 
-    import wizcoin
-    coin = wizcoin.WizCoin(2, 5, 10)
-    str(coin)
+    >>> import wizcoin
+    >>> coin = wizcoin.WizCoin(2, 5, 10)
+    >>> str(coin)
     '2g, 5s, 10k'
-    coin.value()
+    >>> coin.value()
     1141
 
 ## Contribute
